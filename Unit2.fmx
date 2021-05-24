@@ -1,0 +1,124 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 361
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Size.Width = 361.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Insira seus dados de cancelamento'
+  end
+  object editNSU: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    KeyboardType = NumberPad
+    Position.X = 16.000000000000000000
+    Position.Y = 97.000000000000000000
+    Hint = 'Informe o NSU da transacao'
+    Size.Width = 329.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object editCodigoAutorizacao: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    KeyboardType = NumberPad
+    Position.X = 16.000000000000000000
+    Position.Y = 167.000000000000000000
+    Hint = 'Informe o NSU da transacao'
+    Size.Width = 329.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object editDataTransacao: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Position.X = 16.000000000000000000
+    Position.Y = 239.000000000000000000
+    Hint = 'Informe o NSU da transacao'
+    Size.Width = 329.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object editValorTransacao: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    KeyboardType = DecimalNumberPad
+    Position.X = 16.000000000000000000
+    Position.Y = 309.000000000000000000
+    Hint = 'Informe o NSU da transacao'
+    Size.Width = 329.000000000000000000
+    Size.Height = 36.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Informe o NSU da transacao'
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'C'#243'digo Autorizacao'
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Data da transa'#231#227'o'
+  end
+  object Label5: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Valor da transa'#231#227'o'
+  end
+  object btnCancelamento: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 368.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Cancelar'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = btnCancelamentoClick
+  end
+  object btnConfirmar: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 424.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Confirmar'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+end

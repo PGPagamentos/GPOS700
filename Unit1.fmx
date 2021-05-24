@@ -1,0 +1,336 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 573
+  ClientWidth = 361
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 361.000000000000000000
+    Size.Height = 573.000000000000000000
+    Size.PlatformDefault = False
+    object Label1: TLabel
+      Align = Top
+      StyledSettings = [Family, FontColor]
+      Size.Width = 361.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'Exmplo PayGo - Gertec Delphi'
+    end
+    object Label2: TLabel
+      StyledSettings = [Family, FontColor]
+      Position.Y = 56.000000000000000000
+      Size.Width = 185.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Trailing
+      Text = 'Valor em R$'
+    end
+    object editValor: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Text = '8.00'
+      Position.X = 200.000000000000000000
+      Position.Y = 56.000000000000000000
+      Hint = 'R$ 0,00'
+      Size.Width = 137.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object GroupBox2: TGroupBox
+      StyledSettings = [Family, FontColor, Other]
+      Position.X = 184.000000000000000000
+      Position.Y = 104.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Tipo Parcelamento'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      object rbEstabelecimento: TRadioButton
+        StyledSettings = [Family, FontColor]
+        Position.X = 4.000000000000000000
+        Position.Y = 96.000000000000000000
+        Size.Width = 162.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Estabelicimento'
+        TextSettings.Font.Size = 18.000000000000000000
+      end
+      object rbEmissor: TRadioButton
+        StyledSettings = [Family, FontColor]
+        Position.X = 4.000000000000000000
+        Position.Y = 72.000000000000000000
+        Size.Width = 162.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Emissor'
+        TextSettings.Font.Size = 18.000000000000000000
+      end
+      object rbAVista: TRadioButton
+        StyledSettings = [Family, FontColor]
+        Position.X = 4.000000000000000000
+        Position.Y = 48.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'A vista'
+        TextSettings.Font.Size = 18.000000000000000000
+      end
+      object rbParcelamentoNaoDef: TRadioButton
+        StyledSettings = [Family, FontColor]
+        IsChecked = True
+        Position.X = 4.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 146.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'N'#227'o Definido'
+        TextSettings.Font.Size = 18.000000000000000000
+      end
+    end
+    object Label3: TLabel
+      StyledSettings = [Family, FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 280.000000000000000000
+      Size.Width = 137.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Parcelas'
+    end
+    object Label4: TLabel
+      StyledSettings = [Family, FontColor]
+      Position.X = 184.000000000000000000
+      Position.Y = 280.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Adquirente'
+    end
+    object editParcelas: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Text = '0'
+      Position.X = 8.000000000000000000
+      Position.Y = 307.000000000000000000
+      Enabled = False
+      Hint = 'R$ 0,00'
+      Size.Width = 137.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object cbAdquirente: TComboBox
+      ItemIndex = 0
+      Position.X = 184.000000000000000000
+      Position.Y = 308.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      ParentShowHint = False
+      ShowHint = True
+      object ListBoxItem1: TListBoxItem
+        IsSelected = True
+        Size.Width = 19.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'PROVEDOR DESCONHECIDO'
+      end
+      object ListBoxItem2: TListBoxItem
+        Size.Width = 19.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'ListBoxItem2'
+      end
+      object ListBoxItem3: TListBoxItem
+        Text = 'ListBoxItem3'
+      end
+      object ListBoxItem4: TListBoxItem
+        Text = 'ListBoxItem4'
+      end
+      object ListBoxItem5: TListBoxItem
+        Text = 'ListBoxItem5'
+      end
+      object ListBoxItem6: TListBoxItem
+        Text = 'ListBoxItem6'
+      end
+      object ListBoxItem7: TListBoxItem
+        Text = 'ListBoxItem7'
+      end
+      object ListBoxItem8: TListBoxItem
+        Text = 'ListBoxItem8'
+      end
+      object ListBoxItem9: TListBoxItem
+        Text = 'ListBoxItem9'
+      end
+      object ListBoxItem10: TListBoxItem
+        Text = 'ListBoxItem10'
+      end
+      object ListBoxItem11: TListBoxItem
+        Text = 'ListBoxItem11'
+      end
+      object ListBoxItem12: TListBoxItem
+        Text = 'ListBoxItem12'
+      end
+      object ListBoxItem13: TListBoxItem
+        Text = 'ListBoxItem13'
+      end
+      object ListBoxItem14: TListBoxItem
+        Text = 'ListBoxItem14'
+      end
+      object ListBoxItem15: TListBoxItem
+        Text = 'ListBoxItem15'
+      end
+      object ListBoxItem16: TListBoxItem
+        Text = 'ListBoxItem16'
+      end
+      object ListBoxItem17: TListBoxItem
+        Text = 'ListBoxItem17'
+      end
+      object ListBoxItem18: TListBoxItem
+        Text = 'ListBoxItem18'
+      end
+      object ListBoxItem19: TListBoxItem
+        Text = 'ListBoxItem19'
+      end
+      object ListBoxItem20: TListBoxItem
+        Text = 'ListBoxItem20'
+      end
+      object ListBoxItem21: TListBoxItem
+        Text = 'ListBoxItem21'
+      end
+      object ListBoxItem22: TListBoxItem
+        Text = 'ListBoxItem22'
+      end
+    end
+    object cbConfManual: TCheckBox
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 344.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Confirma'#231#227'o Manual'
+      TextSettings.Font.Size = 15.000000000000000000
+    end
+    object cbViasDif: TCheckBox
+      StyledSettings = [Family, Style, FontColor]
+      IsChecked = True
+      Position.X = 184.000000000000000000
+      Position.Y = 360.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Vias Loja/Cliente'
+      TextSettings.Font.Size = 15.000000000000000000
+    end
+    object btnPagar: TButton
+      Align = Bottom
+      Position.Y = 438.000000000000000000
+      Size.Width = 361.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Pagar'
+      OnClick = btnPagarClick
+    end
+    object cbViaReduz: TCheckBox
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 392.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Via Completa'
+      TextSettings.Font.Size = 15.000000000000000000
+    end
+    object cbInterfaceAlternativa: TCheckBox
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 184.000000000000000000
+      Position.Y = 392.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Interface Alternativa'
+      TextSettings.Font.Size = 15.000000000000000000
+    end
+    object btnCancelamento: TButton
+      Align = Bottom
+      Position.Y = 483.000000000000000000
+      Size.Width = 361.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Cancelamento'
+      OnClick = btnCancelamentoClick
+    end
+    object btnAdministrativo: TButton
+      Align = Bottom
+      Position.Y = 528.000000000000000000
+      Size.Width = 361.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Administrativo'
+      OnClick = btnAdministrativoClick
+    end
+    object GroupBox1: TGroupBox
+      StyledSettings = [Family, FontColor, Other]
+      Position.X = 8.000000000000000000
+      Position.Y = 104.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Tipo Pagamento'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      object cbNaoDefinido: TCheckBox
+        StyledSettings = [Family, Style, FontColor]
+        IsChecked = True
+        Position.X = 8.000000000000000000
+        Position.Y = 27.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'N'#227'o Definido'
+        TextSettings.Font.Size = 18.000000000000000000
+        OnChange = cbNaoDefinidoChange
+      end
+      object cbCredito: TCheckBox
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 8.000000000000000000
+        Position.Y = 54.000000000000000000
+        Text = 'Cr'#233'dito'
+        TextSettings.Font.Size = 18.000000000000000000
+        OnChange = cbCreditoChange
+      end
+      object cbDebito: TCheckBox
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 8.000000000000000000
+        Position.Y = 83.000000000000000000
+        Text = 'D'#233'bito'
+        TextSettings.Font.Size = 18.000000000000000000
+        OnChange = cbDebitoChange
+      end
+      object cbVoucher: TCheckBox
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 8.000000000000000000
+        Position.Y = 111.000000000000000000
+        Size.Width = 153.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Carteira Digital'
+        TextSettings.Font.Size = 18.000000000000000000
+        OnChange = cbVoucherChange
+      end
+    end
+  end
+end
