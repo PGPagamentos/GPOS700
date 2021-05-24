@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/08/14 16:54:24.000.419,=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/14 16:55:17.000.981,D:\Projetos\teste\PayGoTesteDelphi\Unit1.fmx=D:\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/08/14 16:55:17.000.981,D:\Projetos\teste\PayGoTesteDelphi\Unit1.pas=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/14 16:55:31.000.570,D:\Projetos\teste\PayGoTesteDelphi\PayGoTeste.dproj=D:\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/08/14 17:02:56.000.560,=D:\Projetos\teste\PayGoTesteDelphi\PayGoSDK.pas</Transaction>
+    <Transaction>2020/08/14 17:03:16.000.393,=D:\Projetos\teste\PayGoTesteDelphi\Libs\PayGoSDK.jar</Transaction>
+    <Transaction>2020/08/15 18:42:19.000.878,D:\Projetos\teste\PayGoTesteDelphi\Libs\PayGoSDK.jar=</Transaction>
+    <Transaction>2020/08/20 10:35:58.000.507,=D:\Projetos\teste\PayGoTesteDelphi\Libs\PayGoSDK.jar</Transaction>
+    <Transaction>2020/09/09 11:55:08.000.006,=D:\Projetos\teste\PayGoTesteDelphi\SaidaTransacao.pas</Transaction>
+    <Transaction>2020/09/09 14:43:56.000.070,=D:\Projetos\teste\PayGoTesteDelphi\Unit2.pas</Transaction>
+    <Transaction>2020/09/09 14:44:08.000.139,D:\Projetos\teste\PayGoTesteDelphi\teste.pas=D:\Projetos\teste\PayGoTesteDelphi\Unit2.pas</Transaction>
+    <Transaction>2020/09/09 15:22:23.000.397,D:\Projetos\teste\PayGoTesteDelphi\SaidaTransacao2.pas=D:\Projetos\teste\PayGoTesteDelphi\SaidaTransacao.pas</Transaction>
+    <Transaction>2020/09/09 15:22:46.000.924,D:\Projetos\teste\PayGoTesteDelphi\SaidaTransacao.pas=D:\Projetos\teste\PayGoTesteDelphi\teste.pas</Transaction>
+    <Transaction>2020/11/13 09:26:50.000.283,D:\Projetos\teste\PayGoTesteDelphi\SaidaTransacao.pas=</Transaction>
+    <Transaction>2020/11/13 09:26:53.000.870,D:\Projetos\teste\PayGoTesteDelphi\SaidaTransacao2.pas=</Transaction>
+    <Transaction>2020/11/13 12:27:03.000.758,=D:\Projetos\teste\PayGoTesteDelphi\Libs\payment-1.14.10.181016_classes.jar</Transaction>
+    <Transaction>2020/11/13 12:27:16.000.687,=D:\Projetos\teste\PayGoTesteDelphi\G700Interface.pas</Transaction>
+    <Transaction>2020/11/13 12:27:16.000.936,=D:\Projetos\teste\PayGoTesteDelphi\GEDIPrinter.pas</Transaction>
+    <Transaction>2020/12/09 10:09:31.000.426,D:\Projetos\Pessoal\PayGoDelphiGPOS700\PayGoSDK.pas=</Transaction>
+    <Transaction>2020/12/09 10:09:58.000.586,=D:\Projetos\Pessoal\PayGoDelphiGPOS700\Libs\InterfaceAutomacao-v2.0.0.8.jar</Transaction>
+    <Transaction>2020/12/09 10:09:58.000.578,=D:\Projetos\Pessoal\PayGoDelphiGPOS700\Libs\commons-lang3-3.9.jar</Transaction>
+    <Transaction>2020/12/09 10:12:19.000.895,=D:\Projetos\Pessoal\PayGoDelphiGPOS700\InterfaceAutomacao_v2_0_0_8.pas</Transaction>
+    <Transaction>2020/12/09 11:32:44.000.752,D:\Projetos\Pessoal\PayGoDelphiGPOS700\Libs\commons-lang3-3.9.jar=</Transaction>
+    <Transaction>2020/12/09 16:29:08.000.901,=D:\Projetos\Pessoal\PayGoDelphiGPOS700\Libs\commons-lang3-3.9.jar</Transaction>
+    <Transaction>2020/12/09 16:37:04.000.434,D:\Projetos\Pessoal\PayGoDelphiGPOS700\Libs\commons-lang3-3.9.jar=</Transaction>
+    <Transaction>2020/12/09 16:43:08.000.845,=D:\Projetos\Pessoal\PayGoDelphiGPOS700\Libs\commons-lang3-3.9.jar</Transaction>
+    <Transaction>2021/01/13 13:33:31.000.215,=D:\Projetos\Pessoal\PayGoDelphiGPOS700\Libs\InterfaceAutomacao_v1_6_0_0.jar</Transaction>
+    <Transaction>2021/01/13 13:34:59.000.188,=D:\Projetos\Pessoal\PayGoDelphiGPOS700\InterfaceAutomacao_v1_6_0_0.pas</Transaction>
+    <Transaction>2021/03/08 16:38:05.000.228,=D:\Projetos\Pessoal\PayGoDelphiGPOS700\Unit2.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="0123abcd" Android64="0123abcd"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>
